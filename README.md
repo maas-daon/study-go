@@ -11,7 +11,9 @@
    ```shell
    $ sudo apt install -y gccgo
    ```
-5. 定番のhelo-worldを書く
+   
+## Hello worldをプログラム＆コンパイル＆実行してみる
+1. まずは、定番のhelo-worldを書く
    ```shell
    $ vi hello-world.go
    ```
@@ -25,16 +27,16 @@
      fmt.Printf("Hello, world\n")
    }
    ```
-6. コンパイルする
+2. コンパイルする
    ```shell
    $ gccgo hello-world.go
    $ ls
    README.md  a.out  hello-wold.go
       ```
-7. 実行してみる
+3. 実行してみる
    ```shell
    $ ./a.out
    Hello, world
    ```
-8. 上記のように"Hello, world"と表示されたら成功！
+4. 上記のように"Hello, world"と表示されたら成功！
    ```
