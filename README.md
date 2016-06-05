@@ -15,7 +15,7 @@
    ```
    
 ## Hello worldをプログラム＆コンパイル＆実行してみる
-1. まずは、定番のhelloworldを書く  
+1. まずは、定番のhelloworldを書いてみる  
    ```shell
    $ vi helloworld.go
    ```
@@ -32,9 +32,9 @@
 2. コンパイルする  
    
    ```shell
-   $ gccgo hello-world.go
+   $ gccgo helloworld.go
    $ ls
-   README.md  a.out  hello-wold.go
+   README.md  a.out  hellowold.go
    ```
 3. 実行してみる  
    
