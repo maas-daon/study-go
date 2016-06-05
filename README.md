@@ -19,7 +19,7 @@
    ```shell
    $ vi helloworld.go
    ```
-   以下をプログラムhello-world.goに書く。  
+   以下をプログラムhelloworld.goに書く。  
    ```go
    package main
    
