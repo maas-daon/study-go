@@ -13,9 +13,9 @@
    ```
    
 ## Hello worldをプログラム＆コンパイル＆実行してみる
-1. まずは、定番のhelo-worldを書く  
+1. まずは、定番のheloworldを書く  
    ```shell
-   $ vi hello-world.go
+   $ vi helloworld.go
    ```
    以下をプログラムhello-world.goに書く。  
    ```go
