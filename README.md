@@ -13,11 +13,11 @@
    ```
    
 ## Hello worldをプログラム＆コンパイル＆実行してみる
-1. まずは、定番のhelo-worldを書く
+1. まずは、定番のhelo-worldを書く  
    ```shell
    $ vi hello-world.go
    ```
-   以下をプログラムhello-world.goに書く。
+   以下をプログラムhello-world.goに書く。  
    ```go
    package main
    
@@ -27,13 +27,13 @@
      fmt.Printf("Hello, world\n")
    }
    ```
-2. コンパイルする
+2. コンパイルする  
    ```shell
    $ gccgo hello-world.go
    $ ls
    README.md  a.out  hello-wold.go
       ```
-3. 実行してみる
+3. 実行してみる  
    ```shell
    $ ./a.out
    Hello, world
