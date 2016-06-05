@@ -6,7 +6,7 @@
    ```shell
   $ sudo apt update && sudo apt -y dist-upgrade
   ```
-3. [チュートリアル](http://golang.jp/go_tutorial)http://golang.jp/go_tutorialを閲覧
+3. [チュートリアル](http://golang.jp/go_tutorial)(http://golang.jp/go_tutorial)を閲覧
 4. gccgoをインストール  
    ```shell
    $ sudo apt install -y gccgo
