@@ -1,0 +1,6 @@
+a.out
+*.gem
+*.tar.gz
+*.tmp
+*.org
+*.swp
