@@ -5,7 +5,16 @@ import (
     "flag" // コマンドラインオプションのパーサー
 )
 
+// 引数"-n"の定義
+//   意味：改行なし
+//   デフォルト：無指定（改行あり）
+//   メッセージ（Usage文字列): "don't print final newline"
 var omitNewline = flag.Bool("n", false, "don't print final newline")
+
+// 引数"-s"の定義
+//   意味：単語間のスペース無視
+//   デフォルト：無指定（スペース有り、ただし複数スペースは１スペースに変換される）
+//   メッセージ（Usage文字列): "ignore spaces between words"
 var ignorespace = flag.Bool("s", false, "ignore spaces between words")
 
 
